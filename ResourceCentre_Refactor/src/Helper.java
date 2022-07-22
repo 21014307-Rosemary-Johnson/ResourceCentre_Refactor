@@ -1,7 +1,6 @@
 // Version for AY2013/14 Sem 2
-
+//hi
 import java.util.*;
-
 public class Helper {
   
   static Scanner scan = new java.util.Scanner(System.in);
