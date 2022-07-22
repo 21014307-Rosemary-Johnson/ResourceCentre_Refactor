@@ -11,21 +11,17 @@ public class Camcorder extends Item{
 	}
 	
 	public String toString(){
-<<<<<<< HEAD
+
 		// Write your codes here
 		String output = super.toString();
 		output = String.format("%-63s %-20d", output, opticalZoom);
 		return output;
 		}
-}
-=======
 
-	    // Write your codes here
-	    String output = super.toString();
-	    output = String.format("%-63s %-20d", output, opticalZoom);
-	    return output;
-
+	public String getAssetTag() {
+		// TODO Auto-generated method stub
+		return null;
 	}
+
 }
 
->>>>>>> branch 'master' of https://github.com/21014307-Rosemary-Johnson/ResourceCentre_Refactor.git

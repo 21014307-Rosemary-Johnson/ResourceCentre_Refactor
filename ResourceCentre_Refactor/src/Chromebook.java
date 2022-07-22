@@ -1,7 +1,7 @@
 public class Chromebook extends Item{
   private String os;
 
-<<<<<<< HEAD
+
   public Chromebook(String assetTag, String description, String os) {
     super(assetTag, description);
     this.os = os;
@@ -17,25 +17,10 @@ public class Chromebook extends Item{
     output = String.format("%-63s %-20s", output, os);
     return output;  
   }
-}
-=======
-	public Chromebook(String assetTag, String description, String os) {
-		super(assetTag, description);
-		this.os = os;
-	}
 
-	public String getOs() {
-		return os;
-	}
-	
-	public String toString(){
-
-	    // Write your codes here
-	    String output = super.toString();
-	    output = String.format("%-63s %-20s", output, os);
-	    return output;
-	}
+public String getAssetTag() {
+	// TODO Auto-generated method stub
+	return null;
 }
 
-
->>>>>>> branch 'master' of https://github.com/21014307-Rosemary-Johnson/ResourceCentre_Refactor.git
+}
