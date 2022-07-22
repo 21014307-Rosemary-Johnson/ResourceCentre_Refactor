@@ -5,6 +5,7 @@ public class Item {
   private String dueDate;
   private boolean isAvailable;
 
+
   public Item(String assetTag, String description) {
     this.assetTag = assetTag;
     this.description = description;
