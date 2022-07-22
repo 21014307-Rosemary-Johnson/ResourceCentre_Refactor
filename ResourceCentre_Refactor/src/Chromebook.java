@@ -1,4 +1,5 @@
 public class Chromebook extends Item{
+
   private String os;
 
 
@@ -17,10 +18,4 @@ public class Chromebook extends Item{
     output = String.format("%-63s %-20s", output, os);
     return output;  
   }
-
-public String getAssetTag() {
-	// TODO Auto-generated method stub
-	return null;
-}
-
 }

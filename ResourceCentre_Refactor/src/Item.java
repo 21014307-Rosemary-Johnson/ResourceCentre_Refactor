@@ -22,7 +22,10 @@ public class Item {
     
     return itemInfo;
   }
-    
+
+  public String getAssetTag() {
+    return assetTag;
+  }
   public String getDescription() {
     return description;
   }

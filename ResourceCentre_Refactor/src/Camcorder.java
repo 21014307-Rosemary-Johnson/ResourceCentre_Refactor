@@ -9,7 +9,6 @@ public class Camcorder extends Item{
 	public int getOpticalZoom() {
 		return opticalZoom;
 	}
-	
 	public String toString(){
 
 		// Write your codes here
@@ -24,4 +23,3 @@ public class Camcorder extends Item{
 	}
 
 }
-
