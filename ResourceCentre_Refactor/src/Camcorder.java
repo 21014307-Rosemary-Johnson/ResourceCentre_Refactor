@@ -17,9 +17,5 @@ public class Camcorder extends Item{
 		return output;
 		}
 
-	public String getAssetTag() {
-		// TODO Auto-generated method stub
-		return null;
-	}
 
 }
